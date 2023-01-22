@@ -6,7 +6,7 @@ const app = express();
 
 dotenv.config({ path:"./config.env" })
 
-const DB = process.env.DATABASE
+const DB = "mongodb+srv://Kabirrr07:Rik5oNBNM8UBw0Xe@cluster0.lkzf16r.mongodb.net/todos?retryWrites=true&w=majority"
 
 app.use(express.json());
 app.use(cors());
